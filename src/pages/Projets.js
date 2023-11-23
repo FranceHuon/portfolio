@@ -10,15 +10,13 @@ function Projets() {
             </div>
 
             <div id="projets">
-                    <ProjetCard />
-                    <ProjetCard />
-                    <ProjetCard />
-                    <ProjetCard />
-            
+                    <ProjetCard />     
             </div>
         </div>
     );
 }
 export default Projets;
+
+
 
 

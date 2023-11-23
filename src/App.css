@@ -1,5 +1,6 @@
 body {
   background-color: #000000;
+  scroll-behavior: smooth;
 }
 
 .custom-h1 {
@@ -38,43 +39,34 @@ body {
 }
 
 .custom-p {
-  display: flex;
+  display: grid;
   font-family: 'Poppins';
   font-size: 3em;
   color: #EDE7DB;
   margin-left: 2em;
-  margin-top: auto;
   text-align:start;
+  padding:0.3em;
 }
 
 .custom-pv2 {
-color: #EDE7DB;;
-margin-top: 3.7em;
-margin-bottom: 20px;
-font-family: Arial,sans-serif;
-font-size: 3.125em;
-line-height: 2;
-margin-left: 3em;
+  font-family: 'Poppins';
+  font-size: 3em;
+  color: #EDE7DB;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: auto;
+  padding:0.25em;
 }
 
-/* .custom-pv2 { */
-  /* margin-top: 3.7em;
-  margin-left: 3em;
-  line-height: 2em;
-  font-family: 'Poppins';
-  font-size: 1.5em;
-  color: #EDE7DB; */
-/* } */
-
 .custom-h4 {
-  display: flex;
+  display:grid;
   font-family: 'Poppins';
   font-size: 3.6em;
   color: #EDE7DB;
-  font-weight: 600;
+  font-weight: 500;
   line-height: normal;
   margin-top: auto;
-  text-align: center;
+  padding:0.25em;
 }
 
 .nav-link-custom {
@@ -93,6 +85,14 @@ margin-left: 3em;
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+.key {
+  margin-top:5em;
+}
+
+.value {
+  margin-top:5em;
 }
 
 
