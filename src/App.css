@@ -3,6 +3,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.projets {
+  background-color:#EDE7DB;
+}
+
 .custom-h1 {
   display: block;
   font-family: 'Poppins';
@@ -10,7 +14,6 @@ body {
   color: #EDE7DB;
   font-weight: 400;
   line-height: normal;
-  margin-left: 1.95em;
   margin-bottom: 2em;
 }
 
@@ -22,9 +25,7 @@ body {
   line-height: 0;
   margin:0;
   font-weight: 600;
-  margin-left: 1em;
   line-height: 1;
-
 }
 
 .custom-h3 {
@@ -94,6 +95,41 @@ body {
 .value {
   margin-top:5em;
 }
+
+.intro {
+  margin-left: 6em;
+  margin-top: 2.1em;
+  margin-bottom: 2.1em;
+}
+
+.title {
+  font-family: 'Poppins';
+  color: #EDE7DB;
+  font-size: 3.60em;
+  font-weight: 700;
+}
+
+.cardStyle {
+  background-color:#000000;
+  color: #EDE7DB;
+  width:10em;
+}
+
+.img-fluid {
+  width: 70%;
+  height: auto;
+}
+
+.text {
+  font-family: 'Arial Black';
+  font-size: 3em;
+  color: #EDE7DB;
+}
+
+
+
+
+
 
 
 

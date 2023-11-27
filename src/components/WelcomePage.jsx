@@ -1,10 +1,11 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../App.css';
 
 function WelcomePage() {
     return (
-        <Container>
+        <Container className='intro'>
             <Row>
                 <Col>
                     <h1 className="custom-h1">FRANCE HUON</h1>

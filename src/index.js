@@ -7,6 +7,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Accueil from './pages/Accueil';
 import Projets from './pages/Projets';
+import Consonea from './pages/Consonea';
 import Contact from './pages/Contact';
 
 
@@ -19,6 +20,7 @@ root.render(
       <Route path="/" element={<Accueil />} />
       <Route path="/accueil" element={<Accueil />} />
       <Route path="/projets" element={<Projets />} />
+      <Route path="/consonea" element={<Consonea />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
     </Router>

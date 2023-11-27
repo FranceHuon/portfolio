@@ -8,8 +8,7 @@ function ProjetCard() {
     <Row xs={1} md={2} className="g-4">
       {projectsData.map((project, idx) => (
         <Col key={idx}>
-          <Card>
-            <Card.Img src={project.imageUrl} />
+          <Card className='cardStyle'>
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>{project.description}</Card.Text>
