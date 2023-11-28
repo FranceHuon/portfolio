@@ -8,17 +8,22 @@ const projectsData = [
     },
     {
         title: 'DayByDay',
-        description: 'Description de l\'autre projet',
+        description: 'Extension de navigateur',
         imageUrl: 'URL_de_l_image_2',
     },
     {
         title: 'Trucs à faire sur Nantes',
-        description: 'Description de l\'autre projet',
+        description: 'Dataviz & API',
         imageUrl: 'URL_de_l_image_2',
     },
     {
-        title: 'To do list',
-        description: 'Description de l\'autre projet',
+        title: 'Réseau social PHP',
+        description: 'Réseau social PHP',
+        imageUrl: 'URL_de_l_image_2',
+    },
+    {
+        title: 'Réseau social PHP',
+        description: 'Réseau social PHP',
         imageUrl: 'URL_de_l_image_2',
     },
 ];

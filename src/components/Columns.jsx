@@ -14,6 +14,8 @@ function Columns() {
                     <div id='emailKey'><h4 className="custom-h4">TÉLÉPHONE</h4></div>
                     <div className="ligne-horizontale"></div>
                     <div id='linkedinKey'><h4 className="custom-h4">LINKEDIN</h4></div>
+                    <div className="ligne-horizontale"></div>
+                    <div id='GitHubKey'><h4 className="custom-h4">GITHUB</h4></div>
                 </Col>
                 <Col className='value'>
                     <div id='placeValue'><h4 className="custom-h4">NANTES</h4></div>
@@ -23,6 +25,7 @@ function Columns() {
                     <div id='emailValue'><h4 className="custom-h4">FRANCEHUON@GMAIL.COM</h4></div>
                     <div className="ligne-horizontale"></div>
                     <div id='linkedinValue'><h4 className="custom-h4">LINKEDIN/IN/FRANCEHUON</h4></div>
+                    <div id='GitHubValue'><h4 className="custom-h4">https://github.com/FranceHuon</h4></div>
                 </Col>
             </Row>
         </Container>
