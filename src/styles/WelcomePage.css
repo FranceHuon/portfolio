@@ -1,0 +1,51 @@
+.intro {
+    display: grid;
+    margin-left: 6em;
+    margin-top: 2.1em;
+    margin-bottom: 2.1em;
+}
+
+.custom-h1 {
+    font-family: 'Poppins';
+    font-size: 6em;
+    color: #EDE7DB;
+    font-weight: 600;
+}
+  
+.custom-h2 {
+    font-family: 'Poppins';
+    font-size: 3em;
+    color: #EDE7DB;
+    font-weight: 600;
+}
+
+.name {
+    margin-bottom: 4.5em;
+}
+
+.profession {
+    line-height: 0;
+}
+
+.openToWork {
+    display: flex;
+    margin-top: 3em;
+    justify-content: flex-end;
+    margin-right: 3em;
+    margin-bottom: 2em;
+}
+
+.custom-p {
+    font-family: 'Poppins';
+    font-size: 3em;
+    color: #EDE7DB;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.textePresentation {
+    display: flex;
+    margin-left: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}

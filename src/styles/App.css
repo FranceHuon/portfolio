@@ -1,0 +1,32 @@
+body {
+  background-color: #000000;
+  scroll-behavior: smooth;
+}
+
+.projets {
+  background-color:#EDE7DB;
+}
+
+
+#informations {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+.img-fluid {
+  width: 70%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+

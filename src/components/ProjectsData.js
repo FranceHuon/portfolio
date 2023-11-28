@@ -1,5 +1,3 @@
-
-
 const projectsData = [
     {
         title: 'Consonéa',

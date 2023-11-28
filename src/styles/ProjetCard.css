@@ -1,0 +1,9 @@
+.ProjetCardStyle {
+    background-color:#000000;
+    color: #EDE7DB;
+    width:20em;
+  } 
+
+.ProjetCardContainer {
+  margin-left: 10em;
+}
