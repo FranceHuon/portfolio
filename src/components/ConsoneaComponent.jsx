@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import ConsoneaImage1 from '../images/Consonea_1.png';
 import ConsoneaImage2 from '../images/Consonea_2.png';
 import ConsoneaImage3 from '../images/Consonea_3.png';
+import '../styles/Fonts.css';
 
 function ConsoneaComponent() {
     return (

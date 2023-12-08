@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col, Row, Container } from 'react-bootstrap';
 import projectsData from './ProjectsData';
 import '../styles/ProjetCard.css';
+import '../styles/Fonts.css';
 
 
 function ProjetCard() {

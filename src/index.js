@@ -6,6 +6,7 @@ import '../src/styles/App.css';
 import { BrowserRouter as Router} from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Accueil from './pages/Accueil';
+import About from './pages/About';
 import Projets from './pages/Projets';
 import Consonea from './pages/Consonea';
 import DayByDay from './pages/DayByDay';
@@ -20,8 +21,9 @@ root.render(
     <App />
     <Routes>
       <Route path="/" element={<Accueil />} />
-      <Route path="/accueil" element={<Accueil />} />
-      <Route path="/projets" element={<Projets />} />
+      <Route path="/home" element={<Accueil />} />
+      <Route path='/about' element ={<About />} />
+      <Route path="/projects" element={<Projets />} />
       <Route path="/consonea" element={<Consonea />} />
       <Route path="/daybyday" element={<DayByDay />} />
       <Route path="/trucs" element={<Trucs />} />

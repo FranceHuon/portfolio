@@ -2,21 +2,25 @@ import { Container, Nav, Navbar } from 'react-bootstrap/';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import '../styles/NavBar.css';
+import '../styles/Fonts.css';
 
 function NavBar() {
     const location = useLocation();
     return (
-        <Navbar>
+        <Navbar> 
             <Container>
-                <Nav className="ms-auto">
-                    {(location.pathname === '/' || location.pathname === '/accueil') ? null : (
-                        <Link to="/accueil" className="nav-link-custom">ACCUEIL</Link>
+                <Nav className='ms-auto'>
+                    {(location.pathname === '/' || location.pathname === '/home') ? null : (
+                        <Link to='/home' className='nav-link-custom'>Home</Link>
                     )}
-                    {location.pathname !== '/projets' && (
-                        <Link to="/projets" className="nav-link-custom">PROJETS</Link>
+                    {location.pathname !== '/about' && (
+                        <Link to="/about" className="nav-link-custom">About</Link>
+                    )}
+                    {location.pathname !== '/projects' && (
+                        <Link to="/projects" className="nav-link-custom">Projects</Link>
                     )}
                     {location.pathname !== '/contact' && (
-                        <Link to="/contact" className="nav-link-custom">CONTACT</Link>
+                        <Link to="/contact" className="nav-link-custom">Contact</Link>
                     )}
                 </Nav>
             </Container>

@@ -2,68 +2,46 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../styles/Contact.css';
+import '../styles/Fonts.css';
 
-function Columns() {
+function ContactComponent() {
     return (
-        <Container>
-            <Row>
-                <Col className='key'>
-                    <div id='placeKey'><h2 className="custom-h2 ligne-horizontale">LIEU</h2></div>
-                    {/* <div className="ligne-horizontale"></div> */}
-                    <div id='phoneKey'><h2 className="custom-h2 ligne-horizontale">EMAIL</h2></div>
-                   
-                    <div id='emailKey'><h2 className="custom-h2 ligne-horizontale">TÉLÉPHONE</h2></div>
-                    
-                    <div id='linkedinKey'><h2 className="custom-h2 ligne-horizontale">LINKEDIN</h2></div>
-                    
-                    <div id='GitHubKey'><h2 className="custom-h2 ligne-horizontale">GITHUB</h2></div>
+        <Container className='m-md-4 m-0'>
+            <Row className='mb-5'>
+                <Col md={6} xs={12}>
+                    <h1 className='custom-h1'>Contact</h1>
                 </Col>
-                <Col className='value'>
-                    <div id='placeValue'><h2 className="custom-h2 ligne-horizontale">NANTES</h2></div>
-                   
-                    <div id='emailValue'><h2 className="custom-h2 ligne-horizontale">FRANCEHUON@GMAIL.COM</h2></div>
-                    
-                    <div id='phoneValue' className="ligne-horizontale"><h2 className="custom-h2 ligne-horizontale">06 09 36 12 96</h2></div>
-                    
-                    <div id='linkedinValue'className="ligne-horizontale"><h2 className="custom-h2 ligne-horizontale">LINKEDIN/IN/FRANCEHUON</h2></div>
-                  
-                    <div id='GitHubValue' className="ligne-horizontale"><h2 className="custom-h2 ">GITHUB/FRANCEHUON</h2></div>
+                <Col md={6} xs={12}>
                 </Col>
             </Row>
-            <dl class="row">
-                <dt class="col-2">
-                Lieu
-                </dt>
-                <dd class="col-10">
-                Nantes
-                </dd>
-                <dt class="col-2">
-                Email
-                </dt>
-                <dd class="col-10">
-                francehuon@gmail.com
-                </dd>
-                <dt class="col-2">
-                Téléphone
-                </dt>
-                <dd class="col-10">
-                06 09 36 12 96
-                </dd>
-                <dt class="col-2">
-                Linkedin
-                </dt>
-                <dd class="col-10">
-                LINKEDIN/IN/FRANCEHUON
-                </dd>
-                <dt class="col-2">
-                    GitHub
-                </dt>
-                <dd class="col-10">
-                GITHUB/FRANCEHUON
-                </dd>
-            </dl>
+            <Row className='mb-5'>
+                <Col md={6} xs={12}>
+                    <section><h2 className='custom-h2'>Lieu : </h2></section>
+                </Col>
+                <Col md={6} xs={12}>
+                    <section><h2 className='custom-h2'>Nantes / Brest</h2></section>
+                </Col>
+            </Row>
+            <Row className='mb-5'>
+                <Col md={6} xs={12}>
+                    <section><h2 className='custom-h2'>Email : </h2></section>
+                </Col>
+                <Col md={6} xs={12}>
+                    <section><h2 className='custom-h2 '>francehuon@gmail.com</h2></section>
+                </Col>
+            </Row>
+            <Row className='mb-5'>
+                <Col md={6} xs={12}>
+                    <section><a href='https://www.linkedin.com/in/francehuon/' className='custom-a' aria-label='Profil Linkedin'><h2 className='custom-h2'>Linkedin</h2></a></section>
+                </Col>
+            </Row>
+            <Row className='mb-5'>
+                <Col md={6} xs={12}>
+                    <section><a href='https://github.com/FranceHuon' className='custom-a' aria-label='Profil GitHub'><h2 className='custom-h2'>GitHub</h2></a></section>
+                </Col>
+            </Row>
         </Container>
     );
 }
 
-export default Columns;
+export default ContactComponent;

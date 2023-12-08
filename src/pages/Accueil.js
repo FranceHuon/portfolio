@@ -1,9 +1,8 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import ProjetCard from '../components/ProjetCard';
-import Columns from '../components/ContactComponent';
 import WelcomePage from '../components/WelcomePage';
-import PresentationTextComponent from '../components/PresentationTextComponent';
+import AboutComponent from '../components/AboutComponent';
+import '../styles/WelcomePage.css';
 
 function Accueil() {
     return (
@@ -15,14 +14,7 @@ function Accueil() {
                 <WelcomePage />
             </div>
             <div id="textePresentation">
-                <PresentationTextComponent />
-            </div>
-           
-            <div id='projets'>
-                <ProjetCard />
-            </div>
-            <div id='contact'>
-                <Columns />
+                <AboutComponent />
             </div>
         </div>
 

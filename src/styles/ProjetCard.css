@@ -1,9 +1,10 @@
 .ProjetCardStyle {
-    background-color:#000000;
-    color: #EDE7DB;
-    width:20em;
+    background-color:#EDE7DB;
+    color: #ff3c00;
+    width:20rem;
+    font-family: 'Helvetica';
   } 
 
 .ProjetCardContainer {
-  margin-left: 10em;
+  margin-left: 10rem;
 }

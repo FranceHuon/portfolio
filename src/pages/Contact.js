@@ -8,9 +8,9 @@ function Contact() {
             <div id="navBar">
                 <NavBar />
             </div>
-            <div>
+            <main>
                 <ContactComponent />
-            </div>
+            </main>
         </div>
     )
 }
