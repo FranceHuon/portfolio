@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjetCard from "../components/ProjetCard";
+import ProjectsContainer from "../components/ProjectsContainer";
 import NavBar from "../components/NavBar";
 
 function Projets() {
@@ -10,7 +10,7 @@ function Projets() {
             </div>
 
             <div id="projets">
-                    <ProjetCard />     
+                    <ProjectsContainer />     
             </div>
         </div>
     );

@@ -3,7 +3,7 @@
     text-transform: uppercase;
     font-size: 4.5rem;
     color: #ff3c00;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .custom-h2 {
@@ -16,22 +16,13 @@
 
 .custom-p {
     font-family: 'Helvetica';
-    font-size: 3rem;
-    font-weight: 600;
-    line-height: normal;
-    color: #ff3c00;
-}
-
-.custom-pV2 {
-    font-family: 'Helvetica';
     font-size: 1.5rem;
     font-weight: 200;
     line-height: normal;
     color: #ff3c00;
 }
 
-
-@media (min-width: 48em) {
+@media (min-width: 48rem) {
     .custom-h1 {
         font-size:6rem;
     }
@@ -40,7 +31,7 @@
     }
 }
 
-@media (min-width: 62em) {
+@media (min-width: 62rem) {
     .custom-h1 {
         font-size: 6.75rem;
     }
