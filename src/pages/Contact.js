@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from "../components/NavBar";
-import ContactComponent from '../components/ContactComponent';
+import ContactFormComponent from '../components/ContactFormComponent';
 
 function Contact() {
     return (
@@ -9,7 +9,7 @@ function Contact() {
                 <NavBar />
             </div>
             <main>
-                <ContactComponent />
+                <ContactFormComponent />
             </main>
         </div>
     )

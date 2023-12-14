@@ -21,7 +21,7 @@ function HomePage() {
             <Row className='mb-5'>
                 <Col></Col>
                 <Col>
-                <h2 className='custom-h2'>open to work</h2>
+                <h2 className='custom-h2 work'>open to work</h2>
                 </Col>
             </Row>
         </Container>

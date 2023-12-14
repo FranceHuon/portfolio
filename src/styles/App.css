@@ -29,10 +29,15 @@ body {
 .name {
   margin-bottom: 4.5rem;
 }
+*/
 
 .profesion {
-  line-height: 0.9;
-} */
+  line-height: 0.7;
+}
+
+.work {
+  margin-top:5rem;
+}
 
 
 /* AboutComponent CSS */
@@ -44,8 +49,7 @@ body {
 
 .textPresentation {
   display: block;
-  margin-right: 6rem;
-  margin-top: 6rem;
+  margin-top: 1.5rem;
 }
 
 
@@ -53,7 +57,6 @@ body {
 .custom-a {
   text-decoration: none;
 }
-
 
 .custom-container {
   margin: 2rem;
@@ -70,6 +73,33 @@ body {
     margin-left: 3rem;
   }
 }
+
+.button-style {
+  background-color:#ff3c00;
+  border-color:#ff3c00;
+  color: #EDE7DB;
+  font-family: 'Helvetica';
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-top: 2rem;
+}
+
+.custom-input {
+  height: 4rem;
+  width: 30rem;
+  background-color: #EDE7DB;
+  margin: 1rem;
+  border-bottom-color: #ff3c00;
+  border-radius:0;
+}
+
+.custom-form {
+  margin-left: 6rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+
 
 
 
